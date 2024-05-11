@@ -12,10 +12,10 @@ esphome:
     version: "1.0"
 
 esp8266:
-  board: esp12e
+  board: esp8266
 
 dashboard_import:
-  package_import_url: github://TillFleisch/ESPHome-Philips-Smart-Coffee/templates/Philips_EP2220.yaml@main
+  package_import_url: github://miharajster/ESPHome-Philips-Smart-Coffee/templates/Philips_EP2220.yaml@main
 
 logger:
   baud_rate: 0
@@ -30,7 +30,7 @@ wifi:
 captive_portal:
 
 external_components:
-  - source: github://TillFleisch/ESPHome-Philips-Smart-Coffee@main
+  - source: github://miharajster/ESPHome-Philips-Smart-Coffee@main
 
 uart:
   # UART connected to the mainboard
